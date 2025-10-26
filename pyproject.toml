@@ -1,0 +1,10 @@
+[project]
+name = "triton-utils"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch @ git+https://github.com/pytorch/pytorch.git@main",
+    "triton @ git+https://github.com/triton-lang/triton.git@main",
+]
