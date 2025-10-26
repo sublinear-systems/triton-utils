@@ -1,0 +1,3 @@
+# triton-utils
+
+Open sourced at popular request, these are some of the utilities we use at Sublinear Systems to write our Triton and Gluon kernels. Feedback is welcome, but there is no guarantee of stability or even correctness. They are presented mostly as a reference and to drive the direction of Triton development to better support our needs. We do not recommend using these but if you are looking to try things out you will definitely need the latest changes in Triton's main branch, plus some additional frontend patches from time to time (usually, these are working their way to being upstreamed).
